@@ -3,7 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Moein Maghami</title>
+
+<!-- SEO Meta Tags -->
+<title>Moein Maghami — Creative Content Director & Documentary Filmmaker</title>
+<meta name="description" content="Moein Maghami is a Creative Content Director and Documentary Filmmaker based in Toronto, Canada. 15+ years in media, advertising, and social media strategy.">
+<meta name="author" content="Moein Maghami">
+<meta name="keywords" content="Moein Maghami, Creative Director, Documentary Filmmaker, Social Media Strategist, Toronto, Canada, Content Strategy, Advertising">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://moeinmaghami.github.io">
+
+<!-- Open Graph (for social sharing) -->
+<meta property="og:title" content="Moein Maghami — Creative Content Director & Filmmaker">
+<meta property="og:description" content="Storyteller at heart. Creative director by craft. Based in Toronto, Canada.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://moeinmaghami.github.io">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Moein Maghami — Creative Content Director">
+<meta name="twitter:description" content="Storyteller at heart. Creative director by craft. Based in Toronto, Canada.">
+
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -26,59 +45,14 @@
   .mobile-menu a { font-size: 0.78rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); text-decoration: none; }
   .mobile-menu.open { display: flex; }
 
-  /* HERO */
-  #hero {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 7rem 3rem 5rem;
-    position: relative;
-  }
+  #hero { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 7rem 3rem 5rem; position: relative; }
 
-  .hero-eyebrow {
-    font-size: 0.62rem;
-    letter-spacing: 0.32em;
-    text-transform: uppercase;
-    color: var(--accent2);
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    opacity: 0;
-    animation: fadeUp 0.7s ease 0.1s forwards;
-  }
-  .hero-eyebrow::before,
-  .hero-eyebrow::after { content: ''; width: 30px; height: 1px; background: var(--accent2); display: inline-block; }
+  .hero-eyebrow { font-size: 0.62rem; letter-spacing: 0.32em; text-transform: uppercase; color: var(--accent2); display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; opacity: 0; animation: fadeUp 0.7s ease 0.1s forwards; }
+  .hero-eyebrow::before, .hero-eyebrow::after { content: ''; width: 30px; height: 1px; background: var(--accent2); display: inline-block; }
 
-  .hero-name {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: clamp(4rem, 11vw, 10rem);
-    line-height: 0.9;
-    letter-spacing: -0.01em;
-    color: var(--accent);
-    margin-bottom: 3rem;
-    opacity: 0;
-    animation: fadeUp 0.8s ease 0.2s forwards;
-    white-space: nowrap;
-  }
+  .hero-name { font-family: 'Cormorant Garamond', serif; font-weight: 300; font-style: normal; font-size: clamp(4rem, 11vw, 10rem); line-height: 0.9; letter-spacing: -0.01em; color: var(--accent); margin-bottom: 3rem; opacity: 0; animation: fadeUp 0.8s ease 0.2s forwards; white-space: nowrap; }
 
-  .hero-bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    padding-top: 2.5rem;
-    border-top: 1px solid var(--line);
-    width: 100%;
-    max-width: 900px;
-    opacity: 0;
-    animation: fadeUp 0.8s ease 0.4s forwards;
-  }
+  .hero-bottom { display: flex; flex-direction: column; align-items: center; gap: 2rem; padding-top: 2.5rem; border-top: 1px solid var(--line); width: 100%; max-width: 900px; opacity: 0; animation: fadeUp 0.8s ease 0.4s forwards; }
 
   .hero-roles { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 2rem; }
   .hero-role { font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 0.5rem; }
